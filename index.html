@@ -4,61 +4,149 @@
   <meta charset="UTF-8">
   <title>Eco Genomics | Ivan Mijail De la Cruz Arguello</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f7f7f7; color: #333; }
-    header { background: #014421; color: white; padding: 2em; text-align: center; }
-    main { max-width: 900px; margin: auto; padding: 2em; background: white; }
-    h1, h2 { color: #014421; }
-    section { margin-bottom: 2em; }
-    a { color: #006400; text-decoration: none; }
-    .links a { margin-right: 1em; }
+    body { padding-top: 56px; }
+    .sidebar {
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 240px;
+      background-color: #014421;
+      color: white;
+      padding: 1rem;
+    }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .sidebar a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      margin-left: 260px;
+      padding: 2rem;
+    }
+    footer {
+      background: #014421;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Ivan Mijail De la Cruz Arguello</h1>
-  <p>Postdoctoral Researcher | Uppsala University & SLU</p>
-  <p><strong>Eco Genomics & Evolutionary Ecology</strong></p>
-</header>
+<div class="sidebar">
+  <h4>Navigation</h4>
+  <a href="#research">Research Interests</a>
+  <a href="#education">Education</a>
+  <a href="#appointments">Appointments</a>
+  <a href="#awards">Awards</a>
+  <a href="#publications">Publications</a>
+  <a href="#manuscripts">Manuscripts</a>
+  <a href="#courses">Courses</a>
+  <a href="#grants">Grants</a>
+  <a href="#conferences">Conferences</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#memberships">Memberships</a>
+  <a href="#contact">Contact</a>
+</div>
 
-<main>
-  <section>
-    <h2>About Me</h2>
-    <p>I am an evolutionary biologist specializing in how plants respond to biotic and abiotic stressors, combining tools from genomics, bioinformatics, and evolutionary ecology. My research seeks to understand plant adaptation in the context of climate change, using both experimental and computational approaches.</p>
-  </section>
+<div class="content">
+  <header class="mb-4">
+    <h1>Ivan Mijail De la Cruz Arguello</h1>
+    <p>Postdoctoral Researcher | Uppsala University & SLU</p>
+    <p><strong>Eco Genomics & Evolutionary Ecology</strong></p>
+  </header>
 
-  <section>
+  <section id="research">
     <h2>Research Interests</h2>
+    <p>I study how plants cope with biotic and abiotic factors at genomic and phenotypic levels using evolutionary, ecological, and bioinformatic approaches.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
     <ul>
-      <li>Plant-herbivore interactions</li>
-      <li>Ecological genomics</li>
-      <li>Quantitative and chemical ecology</li>
-      <li>Climate adaptation in plant populations</li>
+      <li>2024–present: Postdoc, Uppsala University</li>
+      <li>2021–2024: Postdoc, SLU</li>
+      <li>2020: PhD in Philosophy (Evolutionary Ecology), UNAM</li>
+      <li>2015: MSc in Biology, UAM</li>
+      <li>2011: BSc in Biology, UAM</li>
     </ul>
   </section>
 
-  <section>
-    <h2>Recent Publications</h2>
-    <p>See full list at <a href="https://www.researchgate.net/profile/Ivan_De_La_Cruz_Arguello" target="_blank">ResearchGate</a></p>
+  <section id="appointments">
+    <h2>Appointments & Overseas Research</h2>
+    <p>Includes positions at UNAM, University of Helsinki, Max Planck Institute, and others across Europe and Mexico.</p>
+  </section>
+
+  <section id="awards">
+    <h2>Awards & Fellowships</h2>
+    <p>Recipient of over 20 academic awards and fellowships including the Tree of Life Award and multiple grants from GSA, CONAHCYT, and international societies.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <p>Author of over 17 peer-reviewed articles. Full list on <a href="https://www.researchgate.net/profile/Ivan_De_La_Cruz_Arguello" target="_blank">ResearchGate</a>.</p>
+  </section>
+
+  <section id="manuscripts">
+    <h2>Manuscripts Under Review</h2>
+    <p>Includes works on Fragaria vesca and climate adaptation, under review at Journal of Plant Ecology.</p>
+  </section>
+
+  <section id="courses">
+    <h2>Courses & Workshops</h2>
+    <p>Completed over 25 courses on statistics, genomics, bioinformatics, and ecological theory.</p>
+  </section>
+
+  <section id="grants">
+    <h2>Research Grants</h2>
     <ul>
-      <li><strong>De-la-Cruz et al. (2025)</strong>. Genotypic responses... <em>Annals of Botany</em>. <a href="https://doi.org/10.1093/aob/mcaf025" target="_blank">[Link]</a></li>
-      <li><strong>Kariñho Betancourt et al. (2024)</strong>. Comparative transcriptome profiling... <em>Ecology and Evolution</em>. <a href="https://doi.org/10.1002/ece3.11496" target="_blank">[Link]</a></li>
-      <!-- More as needed -->
+      <li>Genomics of plant defence (CONACyT, Mexico)</li>
+      <li>Datura stramonium genome (Dovetail Genomics)</li>
     </ul>
   </section>
 
-  <section>
-    <h2>Contact & Academic Links</h2>
+  <section id="conferences">
+    <h2>Conferences & Presentations</h2>
+    <p>Speaker at major conferences including Evolution 2023, New Phytologist, and various Mexican national conferences.</p>
+  </section>
+
+  <section id="teaching">
+    <h2>Teaching & Mentoring</h2>
+    <ul>
+      <li>Courses taught at SLU, UNAM, UAM</li>
+      <li>Mentored master's thesis at University of Padova</li>
+    </ul>
+  </section>
+
+  <section id="memberships">
+    <h2>Professional Memberships & Reviewing</h2>
+    <p>Member of SSE, SMBE, GSA, SolBio. Reviewer for journals including Ecology and Evolution, Molecular Ecology, and Frontiers in Plant Science.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Links</h2>
     <p>Email: <a href="mailto:ivan.de.la.cruz.arguello@ebc.uu.se">ivan.de.la.cruz.arguello@ebc.uu.se</a></p>
-    <div class="links">
-      <a href="https://github.com/icruz1989" target="_blank">GitHub</a>
-      <a href="https://scholar.google.com/citations?user=s0FSmLEAAAAJ&hl=es" target="_blank">Google Scholar</a>
+    <p>
+      <a href="https://scholar.google.com/citations?user=s0FSmLEAAAAJ&hl=es" target="_blank">Google Scholar</a> |
+      <a href="https://github.com/icruz1989" target="_blank">GitHub</a> |
+      <a href="https://twitter.com/muerteorcos" target="_blank">Twitter</a> |
       <a href="https://orcid.org/0000-0002-6794-6138" target="_blank">ORCID</a>
-      <a href="https://twitter.com/muerteorcos" target="_blank">Twitter</a>
-    </div>
+    </p>
   </section>
-</main>
 
+  <footer>
+    <p>&copy; 2025 Ivan Mijail De la Cruz Arguello | Eco Genomics</p>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
